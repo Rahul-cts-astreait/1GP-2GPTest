@@ -10,7 +10,6 @@ deploy-options.json
 
 # LWC VSCode autocomplete
 **/lwc/jsconfig.json
-sfdx-project.json
 
 # LWC Jest coverage reports
 coverage/
@@ -50,4 +49,3 @@ $RECYCLE.BIN/
 .vscode/extensions/
 .vscode/extensions/
 .vscode/
-sfdx-project.json

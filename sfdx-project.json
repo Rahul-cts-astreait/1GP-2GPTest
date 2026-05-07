@@ -1,0 +1,28 @@
+{
+  "packageDirectories": [
+    {
+      "versionName": "ver 1.8.0",
+      "versionNumber": "1.8.0.NEXT",
+      "path": "force-app",
+      "default": true,
+      "package": "AgCRMTest",
+      "versionDescription": "",
+      "ancestorVersion": "1.7.0"
+    }
+  ],
+  "name": "AgCRMTest",
+  "namespace": "AgCRMTest1",
+  "sfdcLoginUrl": "https://login.salesforce.com",
+  "sourceApiVersion": "66.0",
+  "defaultLwcLanguage": "javascript",
+  "packageAliases": {
+    "AgCRMTest": "0Hog50000000dkXCAQ",
+    "My2GPManagedPkg": "0Hog50000000eFBCAY",
+    "My2GPManagedPkg@0.1.0-1": "04tg50000006uFdAAI",
+    "AgCRMTest@1.3.0-1-main": "04tg50000006vWfAAI",
+    "AgCRMTest@1.4.0-1": "04tg50000006xDVAAY",
+    "AgCRMTest@1.5.0-1": "04tg50000006z7FAAQ",
+    "AgCRMTest@1.6.0-1": "04tg50000006zGvAAI",
+    "AgCRMTest@1.8.0-1": "04tg500000072JdAAI"
+  }
+}
