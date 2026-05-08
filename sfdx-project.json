@@ -1,13 +1,13 @@
 {
   "packageDirectories": [
     {
-      "versionName": "ver 1.10.0",
-      "versionNumber": "1.10.0.NEXT",
+      "versionName": "ver 1.10.1",
+      "versionNumber": "1.10.1.NEXT",
       "path": "force-app",
       "default": true,
       "package": "AgCRMTest",
       "versionDescription": "",
-      "ancestorVersion": "1.9.0"
+      "ancestorVersion": "1.10.0"
     }
   ],
   "name": "AgCRMTest",
