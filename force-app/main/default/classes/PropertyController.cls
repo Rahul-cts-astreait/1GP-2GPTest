@@ -45,6 +45,7 @@ public with sharing class PropertyController {
                 AND Beds__c >= :safeMinBedrooms
                 AND Baths__c >= :safeMinBathrooms
         ];
+        
         result.records = [
             SELECT
                 Id,
@@ -72,6 +73,9 @@ public with sharing class PropertyController {
             LIMIT :safePageSize
             OFFSET :offset
         ];
+        if (result==null) {
+            result = new PagedResult();
+        }
         return result;
     }
 
