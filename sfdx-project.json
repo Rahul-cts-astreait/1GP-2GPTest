@@ -1,13 +1,13 @@
 {
   "packageDirectories": [
     {
-      "versionName": "ver 1.16.0",
-      "versionNumber": "1.16.0.NEXT",
+      "versionName": "ver 1.17.0",
+      "versionNumber": "1.17.0.NEXT",
       "path": "force-app",
       "default": true,
       "package": "AgCRMTest",
       "versionDescription": "",
-      "ancestorVersion": "1.15.0"
+      "ancestorVersion": "1.16.0"
     }
   ],
   "name": "AgCRMTest",
@@ -33,6 +33,7 @@
     "AgCRMTest@1.11.1-2": "04tg50000007L69AAE",
     "AgCRMTest@1.11.1-3": "04tg50000007L7lAAE",
     "AgCRMTest@1.14.0-1": "04tg50000007MlNAAU",
-    "AgCRMTest@1.15.0-1": "04tg50000007MrpAAE"
+    "AgCRMTest@1.15.0-1": "04tg50000007MrpAAE",
+    "AgCRMTest@1.16.0-1": "04tg50000007P6XAAU"
   }
 }
