@@ -46,7 +46,11 @@ public with sharing class SampleDataController {
             FROM StaticResource
             WHERE Name = 'sample_data_contacts'
         ];
-        String contactsJSON = contactsResource.body.toString();
+        String contactsJSON;
+        if(contactsResource != null) {
+            contactsJSON = contactsResource.body.toString();
+        }
+        
         List<Contact> contacts = (List<Contact>) JSON.deserialize(
             contactsJSON,
             List<Contact>.class
